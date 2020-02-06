@@ -109,7 +109,7 @@ export const getDefaultDictionary: (name?: string) => Dictionary = (name) => ({
   words: [],
   regexp: null,
   symbolAlternatives: {
-    a: ['4', '@', 'à', 'á', 'â', 'ä', 'æ', 'ã', 'å', 'ā'],
+    a: ['4', '@'],
     b: ['8', '\\|3'],
     c: ['\\(', '<'],
     e: ['3', '&', '€', 'é', 'è'],
